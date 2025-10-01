@@ -1,3 +1,6 @@
 # https://dart.dev/guides/libraries/private-files
 # Created by `dart pub`
 .dart_tool/
+
+# TODO:  이거 자동으로 추가할 수 있도록 하면 좋을 것 같음
+ndmg.json
