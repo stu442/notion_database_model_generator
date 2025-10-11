@@ -1,0 +1,20 @@
+# 자세한 안내는 {Docs Link Here}를 참고해 주세요.
+output_path: /lib/ndmg
+
+columns:
+  # column_name과 type은 필수입니다. 지우지 마세요.
+  - column_name: Feild Name
+    type: title
+    required: true # Notion DB의 제목은 항상 필수입니다.
+
+  - column_name: Type
+    type: select
+    required: false
+
+  - column_name: Nullable
+    type: checkbox
+    required: false
+
+  - column_name: Default
+    type: rich_text
+    required: false
